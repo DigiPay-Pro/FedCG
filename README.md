@@ -72,19 +72,6 @@ We have proposed FedCG, with the aim of protecting data privacy while maintainin
 
 The shortcomings of this paper lie in the fact that the theoretical analysis of privacy protection for FedCG remains to be explored. Additionally, this paper uses LeNet as the local network, which is relatively small in model size. The authors will investigate deeper neural networks to further test the effectiveness of the FedCG method.
 
-## Data
-
-- Digit5 
-https://drive.google.com/open?id=1A4RJOFj4BJkmliiEL7g9WzNIDUHLxfmm
-
-
-- Office-Caltech10 
-https://github.com/jindongwang/transferlearning/tree/master/data#office-caltech10
-
-- DomainNet 
-https://datasets.activeloop.ai/docs/ml/datasets/domainnet-dataset/
-https://ai.bu.edu/M3SDA/#dataset
-
 
 ## Usage
 - Train `FedAVG` `Lenet` on `FashionMNIST` dataset:
